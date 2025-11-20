@@ -3,10 +3,10 @@
 1. How many socs are you a part of?
 
 2. How many different apps do you have for society news?
-2a. Would you be interested in something to put all of these in one place?
+- Would you be interested in something to put all of these in one place?
 
 3. When you are missing information, how do you get in touch with your societies?
-3a. How long does it take for them to get back to you?
+- How long does it take for them to get back to you?
 
 4. Do you find you miss events due to messages getting lost?
 
@@ -17,7 +17,7 @@
 7. How many social media apps do you use, and of these which do you use the most and why?
 
 8. How many societies were you interested in, and how many have you actually gone to?
-8a. Why did you miss their events?
+- Why did you miss their events?
 
 9. What's your best way to interact with a society's event?
 
@@ -30,7 +30,7 @@
 ## Society Commitee Members
 
 1. How do distribute news to your members?
-1a. Why do you use this method
+- Why do you use this method
 
 2. How would you say members engage with your announcments?
 
