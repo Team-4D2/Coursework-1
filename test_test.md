@@ -3,21 +3,23 @@
 ### Interview Design
 
 * How many **socs** are you a part of?
-* How many different **apps** do you have to get **society news**?
-* When you are missing information about how do you ask / get in touch for more information?
+* How many different **apps** do you have for **society news**?
+*    would you be interested in something to put all of these in one place?
+* When you are missing information, how do you get in touch with your societies?
+*    how long does it take for them to get back to you?
 * Do you find you **miss events** due to messages getting lost?
-* How much time does it take you get information out to your society?
 * What type of **posts** do the societies make on **social media**?
-* How long do societies take to reply to a query you may have about them?
 * What is your favourite social media app that you use for societies and why?
 * How many social media apps do you use, and of these which do you use the most and why?
-* How many of these social media apps do you use to connect with the university and any societies, would you be interested in an app which put all of these in one place - why/why not /// would you rather they all used {app they mentioned as using the most}?
-    * **A:** Yes if there is not notification as there as it could get annoying. To be able to mute some Socs and let you preferences. **Soc tabs**
 * How many societies were you interested in, and how many have you actually gone to? + why did you miss their events?
-* What's your best way to interact with a society's event? Do you prefer seeing the **details first, chatting to someone** before deciding or being able to **reserve a spot through an app**?
-* If you were to share an event with friends, what would be the easiest way for you to do that eg. communication through text, sharing posts etc.?
-* If you’re deciding whether to attend an event, would you prefer a feature that lets you see who else is attending, or do you prefer to keep it more private and decide solo? Why?
-* If you attended an event of a society in the past, what do you think the society could have done make you feel more excited about going? How can your suggestions be implemented?
+* What's your best way to interact with a society's event?
+*    Do you prefer seeing the **details first, chatting to someone** before deciding or being able to **reserve a spot through an app**?
+
+
+* If you were to share an event with friends, what would be the easiest way for you to do that?
+* 
+* If you’re deciding whether to attend an event, does viewing a guest list help?
+  
 
 ---
 
