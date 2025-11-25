@@ -58,7 +58,7 @@
 
 * **Users should be able to save events to their calendar** due to them missing events often (Round 1)
 * **Users should be able to find contact info for the committee** (Round 2)
-* **Users should be able to see a description of a post{?} while scrolling** (Round 2)
+* **Users should be able to see a description of a post{?} while scrolling - like instagram** (Round 2)
 * **Users should be able to toggle what notifications should be togglable per society** (Round 1)
 * Users should be able to
 * **Users should have all society as their own tab** away from the main feed to be able to view society announcements (Round 1)
