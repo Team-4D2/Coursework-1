@@ -17,7 +17,7 @@
 
 - [ ] Final Critical Analysis of Project in TB1
 
---
+---
 
 ## Structure
 
@@ -31,7 +31,7 @@ Chapter 4: Testing (5%)
 
 Chapter 5: Critical Analysis (10%)
 
---
+---
 
 ## Chapter 1: Problem Specification
 
@@ -58,7 +58,7 @@ The source of each user requirement is referenced back to the data collected via
 Correct identification of the user functional and non-functional requirements
 Clear and complete translation of each user requirement into its corresponding system requirements
 Complete validation of the system requirements specification. 
---
+---
 ## Chapter 2: Design
 
 ### Detailed Model for System Architecture (20%)
@@ -76,7 +76,7 @@ Discussion of Alternative Models
 Draw a correct use case diagram including at least 5 use cases
 Detailed specification of at least 5 use cases
 Discussion of the challenges faced in the design process
---
+---
 ## Chapter 3: Implementation
 
 ### Evidence of Version Control + Investigation of Languages / Frameworks (100%)
@@ -85,7 +85,7 @@ Discussion of the challenges faced in the design process
 GitHub repository set up
 Team Members joined organisation
 Critical Discussion of tools/technologies being used + evidence of trials
---
+---
 ## Chapter 4: Testing
 
 ### Evidence of a Test Plan for System Requirements (100%)
@@ -93,7 +93,7 @@ Critical Discussion of tools/technologies being used + evidence of trials
 #### Optimal Completion Criteria
 Testing scenarios identified for each function + non-functional requirement
 Investigation into automated testing at system level
---
+---
 ## Chapter 5: Critical Analysis 
 
 ### Reflection on Project Management in regards to Teamwork + Progress Monitoring + Conflict Resolution (100%)
