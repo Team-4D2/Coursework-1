@@ -2,20 +2,20 @@
 
 ## Deliverables
 
--[ ] Report on Research Methods + Research Collected
--[ ] Use Research to develop User Requirements
--[ ] Use User Requirements to develop System Requirements
+- [ ] Report on Research Methods + Research Collected
+- [ ] Use Research to develop User Requirements
+- [ ] Use User Requirements to develop System Requirements
 
--[ ] Use System Requirements to develop Mode
--[ ] Identify, explain and model 5+ Use Cases
+- [ ] Use System Requirements to develop Mode
+- [ ] Identify, explain and model 5+ Use Cases
 
--[ ] Set up the Github
--[ ] Report on which framework/langauages to use
+- [ ] Set up the Github
+- [ ] Report on which framework/langauages to use
 
--[ ] Identify Test Scenarios for System
--[ ] (something on automated testing?)
+- [ ] Identify Test Scenarios for System
+- [ ] (something on automated testing?)
 
--[ ] Final Critical Analysis of Project in TB1
+- [ ] Final Critical Analysis of Project in TB1
 
 --
 
