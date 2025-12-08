@@ -22,7 +22,7 @@ A: I just text the committee
 
 Q: how quickly do they get back to you about it?
 
-A: umm, for one of the societies it's quite busy there's quite a lot of members in it so like it will take a couple of days, but fore the other one probably within the same day
+A: umm, for one of the societies it's quite busy there's quite a lot of members in it so like it will take a couple of days, but for the other one probably within the same day
 
 Q: Do you find you've missed event because you've missed messages?
 
@@ -77,5 +77,6 @@ Q: would it be a screenshot of Instagram or WhatsApp?
 A: yeah
 
 Q: dose it help to see A guest list of who's attending for an event
+
 
 A: Not really no
