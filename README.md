@@ -9,7 +9,7 @@
 - [ ] Use System Requirements to develop Architecture Model
 - [ ] Identify, explain and model 5+ Use Cases
 
-- [ ] Set up the Github
+- [X] Set up the Github
 - [ ] Report on which framework/langauages to use
 
 - [ ] Identify Test Scenarios for System
