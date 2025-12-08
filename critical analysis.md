@@ -10,3 +10,9 @@
  To prepare for implementation we then investigated the tools we could make use of, and the ways we would test our design.
 
  Completing this was not a straightforward task as we encountered complications which challenged our teamwork skills - offering us opportunity to learn and achieve.
+
+ ## Progress Monitoring
+
+ We initially we began with 7 tean members, and using a simple table in a word document to track attendance.
+
+ As the first few weeks went by as we brainstormed draft ideas for our app, and expored how we designed our questions, we realised there was an 
