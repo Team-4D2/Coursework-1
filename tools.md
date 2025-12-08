@@ -1,1 +1,1 @@
-
+We will be running the backend in using python with the flask framework along side JWT and Flask-SQLAlchemy. Flask allows us to quickly and easily set up multiple web endpoints. JWT will provide access control between the flutter mobile app. The flutter Authorization tokens will be created on the flutter app send in the URL request to the Flask. After the request endpoint has verified the JWT is valid it can make a request to the SQL database using SQLAlchemy then extract the relivent data from the database and return it via a rest API
