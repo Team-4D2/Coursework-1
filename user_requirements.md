@@ -1,8 +1,8 @@
 ## User Requirements (Society Members):
 
 - users should be able to log in / register
-- users should be able to easily join multiple societies
-- users should be able to easily contact a societies' committee
+- users should be able to join multiple societies
+- users should be able to contact a societies' committee
 - users should be able toggle on/off notifications for a societies' feed
 - users should be able to interact with posts
     - vote in polls
