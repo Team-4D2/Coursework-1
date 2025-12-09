@@ -3,7 +3,7 @@
 ## Deliverables
 
 - [ ] Report on Research Methods + Research Collected
-- [ ] Use Research to develop User Requirements
+- [x] Use Research to develop User Requirements
 - [ ] Use User Requirements to develop System Requirements
 
 - [ ] Use System Requirements to develop Architecture Model
