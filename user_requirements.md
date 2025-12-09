@@ -30,3 +30,4 @@
     - switch an event's status (to public / private / scheduled)
     - link a post
 - users should be able to respond to a raised concern/question
+- users who are presidents of their society should be able to ***....
