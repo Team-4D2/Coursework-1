@@ -1,4 +1,4 @@
-## System requirments
+## early/draft System requirments
 - user-account have: Societies, email
 - Societies have Calenders, committee-members, Posts, notfication-perms
 - Posts have: text, images, videos, descriptions
