@@ -16,7 +16,6 @@
     - users should be able to add society members as their friends
         - users should be able to see a list of society members
     - users should be able to see distinctive features of an event they are invited to
-- users should ba
     
 
 ## User Requirements (Comittee Members, for their society):
