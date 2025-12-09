@@ -16,3 +16,11 @@
 - user-account have to have a valid portsmouth uni email address
 
 - posts have to have minimum one of the following: text, image, video
+
+## from user_requirements.md
+
+- The system will allow a society members to export a singular event to their device
+- The system will allow society members to export all a societies' events to their calander
+- The system should list all users who have completed an RSVP as part of a guest list for an event
+- 
+
