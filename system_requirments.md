@@ -17,7 +17,7 @@
 
 - posts have to have minimum one of the following: text, image, video
 
-## from user_requirements.md
+## nickyyl from user_requirements.md
 
 - The system will allow a society members to export a singular event to their device
 - The system will allow society members to export all a societies' events to their calander
