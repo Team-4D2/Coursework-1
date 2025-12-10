@@ -1,37 +1,4 @@
-## User Requirements (Society Members):
-
-## Lewis
-- users should be able to log in / register
-- users should be able to join multiple societies
-- users should be able to contact a societies' committee
-- users should be able toggle on/off notifications for a societies' feed
-- users should be able to interact with posts
-    - vote in polls
-    - like
-    - reply to the comittee
-
- ## Nickyyl
-- users should be able to add a single societies' event to their device calander
-- users should be able to add all a socities event's to their device calander
-- users should be able to view a guest list
-- users should be able to RSVP to an event
-- users should be able to 'invite' friends to a society event = like a facebook poke
-    - users should be able to add society members as their friends
-        - users should be able to see a list of society members
-    - users should be able to see distinctive features of an event they are invited to
-    
-## Michael
-
-## User Requirements (Comittee Members, for their society):
-
-- users should be able to upload a post with a combination of text / images
-    - users should be able to 'link' their post to an event
-- users should be able to manage events
-    - create an event
-    - modify an event's details
-    - switch an event's status (to public / private / scheduled)
-    - link a post
-- users should be able to respond to a raised concern/question
+# Functional Requirements
 
 
 
@@ -81,3 +48,22 @@
   - The system should verify that the response text box is filled with valid data.
   - The system should send an API request to the backend linking the new response to the concern's ID.
   - The system should insert the response text into the database via the database manager.
+
+
+# Non-Functional Requirements
+
+The system should not take more than 3 seconds to load the event dashboard.
+
+The system should not take more than 3 seconds to complete the upload of a standard text post.
+
+The system should be able to fetch and display a specific event's details within 3 seconds of the user's request.
+
+The system will have login information saved, allowing logins to be reused (session persistence).
+
+API requests should complete within 2-3 seconds under normal load
+
+Maximum file size of 10MB per image
+
+Users must be authenticated before creating, modifying, or linking posts/events
+
+All input data must be sanitized to prevent SQL injection and XSS attacks
