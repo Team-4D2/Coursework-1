@@ -19,8 +19,27 @@
 
 ## nickyyl from user_requirements.md
 
-- The system will allow a society members to export a singular event to their device
-- The system will allow society members to export all a societies' events to their calander
-- The system should list all users who have completed an RSVP as part of a guest list for an event
-- 
+- users should be able to add a single societies' event to their device calander
+- users should be able to add all a socities event's to their device calander
+ - The system should generate an ICS file for either a single event or a society's upcoming events (??), through data fetched from the database
+ - The system should direct the user to their calander app of choice to save the event, or save the ICS file should no appropriate app be installed
+ - The system should update to demonstrate to the user that the event was added
 
+- users should be able to view a guest list
+ - The system should query the database to return a list of attendees for an event
+
+- users should be able to RSVP to an event
+ - The system should update the database with a users RSVP (boolean, attending / not)
+ - The system should update to demonstrate to the user their RSVP status 
+ 
+- users should be able to see a list of society members
+ - The system should query the database to return a list of members within a society for users to view
+
+- users should be able to add society members as their friends
+ - The system should verify the target user is accepting friend requests
+ - The system should update both users' outgoing/incoming requests, notifying target users of new requests
+
+ - users should be able to 'invite' friends to a society event
+ - users should be able to see distinctive features of an event they are invited to
+  - The system should notify a target user that they have been 'invited' to an event
+  - The system should demonstrate to a user where an event they've been invited to is referenced, that they were invited to it by one or many friend users
