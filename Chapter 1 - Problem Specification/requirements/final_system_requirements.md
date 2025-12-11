@@ -1,5 +1,21 @@
 # Functional Requirements
 
+ - The system should generate an ICS file for either a single event or a society's upcoming events (??), through data fetched from the database
+ - The system should direct the user to their calander app of choice to save the event, or save the ICS file should no appropriate app be installed
+ - The system should update to demonstrate to the user that the event was added
+
+ - The system should query the database to return a list of attendees for an event
+
+ - The system should update the database with a users RSVP (boolean, attending / not)
+ - The system should update to demonstrate to the user their RSVP status 
+
+ - The system should query the database to return a list of members within a society for users to view
+
+ - The system should verify the target user is accepting friend requests
+ - The system should update both users' outgoing/incoming requests, notifying target users of new requests
+
+ - The system should notify a target user that they have been 'invited' to an event
+ - The system should demonstrate to a user where an event they've been invited to is referenced, that they were invited to it by one or many friend users
 
 
 
