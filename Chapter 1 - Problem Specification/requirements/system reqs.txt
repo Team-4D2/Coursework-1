@@ -1,0 +1,70 @@
+Users:
+	email [Should be a valid Portsmouth uni email address | unique] (String)
+	societies [Can be empty] (multiple item data structure)
+	password [minimum 8 characters]
+	
+Societies:
+	notification_option [bool True can send notifications | False can not send notifications]
+	{default True}
+	committee_members [need at least three] (Users)
+	posts [Can be empty]
+
+posts:
+	likes [Can be negative to allow for dislikes] (int) {default 0}
+	data [can not be empty]
+
+data:
+	[need at least text to be none empty or a minimum of one image or a poll]
+	text (String)
+	images
+	poll
+
+poll:
+	list_of_options [minimum 2] (Strings)
+	list_of_votes [Same number as list_of_options | can not be negative] {default 0} (int)
+	has_voted [can be empty] (users) list of users who have voted
+
+
+
+users can register for an account:
+	needs a unique Portsmouth uni email address
+	user enters a password for the account
+	user is also logged in after account creation
+	
+
+user can log in:
+	user provides a email address
+	user provides a password
+	
+	user only gets logged in if both password and email address match an account's email and password
+
+user adds a society to there list of societies:
+	user searches for a society
+	user then adds the society to there list of societies
+	only societies that are not already in the list can be added
+
+	if the society is already in the list the system message the user of this fact and not add it to the list
+	this message should be acknowledged by the user
+	
+users can contact committee members of a society:
+	user is shown the email address of the committee members of the society
+	society must be in the users list of societies
+
+users can toggle society notifications:
+	user can toggle the notifications attribute of the societies in there list of societies
+
+users can interact with posts:
+	vote in polls
+	like posts
+
+vote in polls:
+	users can vote in polls in a society's post
+	user selects the option they want to vote for
+	user can only vote once
+	society that made the poll must be in the users list of societies
+
+like posts:
+	user can increment or decrement a post's likes
+	user can change wither they have incremented, decremented or done nether
+	user can only like posts who's society is in the users list of societies
+
