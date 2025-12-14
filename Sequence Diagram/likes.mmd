@@ -1,0 +1,28 @@
+sequenceDiagram
+    actor Member as Client (Society Member)
+    participant LP as Post Manager<br/>(Like Post)
+    participant MP as Post Manager<br/>(Modify Post)
+    participant DBConn as Database Connector
+    participant DB as Database
+
+    Member->>LP: clickLike(postID)
+    activate LP
+    LP->>LP: calculateNewCount(currentLikes)
+
+    LP->>MP: updateLikeCount(postID, newCount)
+    activate MP
+
+    MP->>DBConn: savePostUpdate(postID, newCount)
+    activate DBConn
+    DBConn->>DB: execute("UPDATE posts SET likes = likes + 1...")
+    activate DB
+    DB-->>DBConn: return success
+    deactivate DB
+    DBConn-->>MP: return success
+    deactivate DBConn
+
+    MP-->>LP: return confirmation
+    deactivate MP
+
+    LP-->>Member: updateUI(newLikeCount)
+    deactivate LP
