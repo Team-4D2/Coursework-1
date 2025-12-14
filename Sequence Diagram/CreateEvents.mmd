@@ -10,7 +10,6 @@ sequenceDiagram
     
     EM->>EM: validateDateAndLocation(eventDetails)
 
-    Note right of EM: Persist event data first
     EM->>DBConn: saveEvent(eventDetails)
     activate DBConn
     DBConn->>DB: execute("INSERT INTO events...")
@@ -19,8 +18,6 @@ sequenceDiagram
     deactivate DB
     DBConn-->>EM: return eventID
     deactivate DBConn
-
-    Note right of EM: As shown in architecture:<br/>"sends event details to calendar generator"
     EM->>CG: updateCalendar(eventDetails)
     activate CG
     CG->>CG: regenerateCalendarView()
