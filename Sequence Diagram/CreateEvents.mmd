@@ -1,0 +1,31 @@
+sequenceDiagram
+    actor Comm as Client (Committee)
+    participant EM as Event Manager<br/>(Create Events)
+    participant CG as Calendar Generator
+    participant DBConn as Database Connector
+    participant DB as Database
+
+    Comm->>EM: createEvent(eventDetails)
+    activate EM
+    
+    EM->>EM: validateDateAndLocation(eventDetails)
+
+    Note right of EM: Persist event data first
+    EM->>DBConn: saveEvent(eventDetails)
+    activate DBConn
+    DBConn->>DB: execute("INSERT INTO events...")
+    activate DB
+    DB-->>DBConn: return result
+    deactivate DB
+    DBConn-->>EM: return eventID
+    deactivate DBConn
+
+    Note right of EM: As shown in architecture:<br/>"sends event details to calendar generator"
+    EM->>CG: updateCalendar(eventDetails)
+    activate CG
+    CG->>CG: regenerateCalendarView()
+    CG-->>EM: return success
+    deactivate CG
+
+    EM-->>Comm: displaySuccessMessage()
+    deactivate EM
