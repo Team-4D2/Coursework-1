@@ -1,0 +1,26 @@
+sequenceDiagram
+    actor Member as Client (Society Member)
+    participant EM as Event Manager
+    participant CG as Calendar Generator
+    participant DBConn as Database Connector
+    participant DB as Database
+
+    Member->>EM: requestCalendarSync(societyID)
+    activate EM
+    EM->>DBConn: getUpcomingEvents(societyID)
+    activate DBConn
+    DBConn->>DB: execute("SELECT * FROM events WHERE date > NOW()...")
+    activate DB
+    DB-->>DBConn: return eventList
+    deactivate DB
+    DBConn-->>EM: return eventList
+    deactivate DBConn
+
+    EM->>CG: generateCalendarExport(eventList)
+    activate CG
+    CG->>CG: formatToICS(eventList)
+    CG-->>EM: return calendarFile
+    deactivate CG
+
+    EM-->>Member: downloadCalendar(calendarFile)
+    deactivate EM
