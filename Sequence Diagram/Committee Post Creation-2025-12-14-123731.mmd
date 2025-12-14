@@ -1,0 +1,29 @@
+sequenceDiagram
+    actor Comm as Client (Committee)
+    participant PM as Post Manager<br/>(Create Post)
+    participant EM as Event Manager<br/>(Modify/Link Event)
+    participant DBConn as Database Connector
+    participant DB as Database
+
+
+    Comm->>PM: createPost(content, eventID)
+    activate PM
+    PM->>PM: validateContent(content)
+    
+    PM->>EM: linkPostToEvent(postID, eventID)
+    activate EM
+    EM->>EM: checkEventExists(eventID)
+    EM-->>PM: return linkSuccess
+    deactivate EM
+
+    PM->>DBConn: savePost(postObject)
+    activate DBConn
+    DBConn->>DB: execute("INSERT INTO posts...")
+    activate DB
+    DB-->>DBConn: return result
+    deactivate DB
+    DBConn-->>PM: return postID
+    deactivate DBConn
+
+    PM-->>Comm: renderPostView(postData)
+    deactivate PM
