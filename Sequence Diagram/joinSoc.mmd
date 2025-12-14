@@ -1,0 +1,51 @@
+sequenceDiagram
+    actor Member as Client (Society Member)
+    participant JS as Join Society<br/>(Account Manager)
+    participant SM as Society Manager
+    participant DBConn as Database Connector
+    participant DB as Database
+
+    
+
+    Member->>JS: openJoinForm()
+    activate JS
+    
+    JS->>SM: getSocietiesForSubscribing()
+    activate SM
+    
+    SM->>DBConn: fetchActiveSocieties()
+    activate DBConn
+    DBConn->>DB: execute("SELECT * FROM societies")
+    activate DB
+    DB-->>DBConn: return resultSet
+    deactivate DB
+    DBConn-->>SM: return societyList
+    deactivate DBConn
+    
+    SM-->>JS: return societyData
+    deactivate SM
+
+    JS-->>Member: displaySocietiesList(societyData)
+    deactivate JS
+
+
+    Member->>JS: clickJoin(societyID)
+    activate JS
+    
+    JS->>SM: addMemberToSociety(userID, societyID)
+    activate SM
+    
+    SM->>DBConn: saveMembership(userID, societyID)
+    activate DBConn
+    DBConn->>DB: execute("INSERT INTO society_members...")
+    activate DB
+    DB-->>DBConn: return success
+    deactivate DB
+    DBConn-->>SM: return success
+    deactivate DBConn
+
+    SM-->>JS: return confirmation
+    deactivate SM
+
+    JS-->>Member: showSuccessMessage()
+    deactivate JS
