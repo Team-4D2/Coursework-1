@@ -10,11 +10,15 @@ sequenceDiagram
     activate PM
     PM->>PM: validateContent(content)
     
-    PM->>EM: linkPostToEvent(postID, eventID)
-    activate EM
-    EM->>EM: checkEventExists(eventID)
-    EM-->>PM: return linkSuccess
-    deactivate EM
+    alt eventID is provided
+        PM->>EM: linkPostToEvent(postID, eventID)
+        activate EM
+        EM->>EM: checkEventExists(eventID)
+        EM-->>PM: return linkSuccess
+        deactivate EM
+    else eventID is null
+        PM->>PM: skip event linking
+    end
 
     PM->>DBConn: savePost(postObject)
     activate DBConn
