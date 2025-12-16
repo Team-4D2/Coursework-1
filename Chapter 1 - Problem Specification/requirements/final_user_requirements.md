@@ -1,37 +1,37 @@
-### User Requirements (Society Members):
+## Society Member requirements 
 
-- note, names used as H2 to indicate allocation of workload
+1. Users should be able to log in / register 
 
-## Lewis
-- users should be able to log in / register
-- users should be able to join multiple societies
-- users should be able to contact a societies' committee
-- users should be able toggle on/off notifications for a societies' feed
-- users should be able to interact with posts
-    - vote in polls
-    - like
-    - reply to the comittee
+2. Users should be able to join multiple societies 
 
- ## Nickyyl
-- users should be able to add a single societies' event to their device calander
-- users should be able to add all a socities event's to their device calander
-- users should be able to view a guest list
-- users should be able to RSVP to an event
-- users should be able to 'invite' friends to a society event (like a facebook poke)
-    - users should be able to add society members as their friends
-        - users should be able to see a list of society members
-    - users should be able to see distinctive features of an event they are invited to
-    
+3. Users should be able to contact a societies' committee 
 
+4. Users should be able toggle on/off notifications for a societies' feed 
 
-### User Requirements (Comittee Members, for their society):
+5. Users should be able to interact (vote in polls / like / tag (invite) friends to event) with posts 
 
-## Michael
-- users should be able to upload a post with a combination of text / images
-    - users should be able to 'link' their post to an event
-- users should be able to manage events
-    - create an event
-    - modify an event's details
-    - switch an event's status (to public / private / scheduled)
-    - link a post
-- users should be able to respond to a raised concern/question
+6. Users should be able to add a single societies' event to their device calendar 
+
+7. Users should be able to add all a societies’ events to their device calendar 
+
+8. Users should be able to view a guest list 
+
+9. Users should be able to RSVP to an event 
+
+10. Users should be able to add society members as their friends 
+
+        - users should be able to see a list of society members     
+
+## Committee Member requirements 
+
+11. Users should be able to manage posts (create / modify) 
+
+    - users should be able to 'link' their post to an event 
+
+12. Users should be able to manage (create / modify) events 
+
+    - switch an event's status (to public / private / scheduled) 
+
+    - link a post 
+
+13. Users should be able to respond to a society member 

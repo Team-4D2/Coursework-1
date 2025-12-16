@@ -1,43 +1,64 @@
-## Requirements gathering
+## Requirements Gathering Methods
 
-We interviewed 6 people who are part of a wide range of societies for 5-15 minutes each (45 minutes was the maximum time we would allow an interview to take), recording the interviewee as it happened. This was to make sure we could ask any follow up questions if the need arouse and clarify any of the questions. The questions asked were:
+To develop requirements, we utilised a semi-structured interview, with an additional set of questions designed for society committee members – collecting qualitative primary data. This allowed us to gain a comprehensive understanding of our participants’ experience as both members of a society, and members of their committees. 
+ 
+We made use of an opportunity sampling method – and for the majority of our interviews we attempted to keep our sample representative by limiting our sample frame to people sitting down in the following buildings: Eldon, Park, University Library 
 
+We interviewed 9 members who were members of a wide range of societies, on average for 10 minutes each, recording each one as it happened. The interviews were then transcribed for us to analyse, allowing us to see patterns to inform our requirements. 
+ 
+#### Question Sets 
+ 
+1. How many societies are you a part of? 
+2. How many different apps do you have for society news? 
+- Would you be interested in something to put all of these in one place? 
+3. When you are missing information, how do you get in touch with your societies? 
+- How long does it take for them to get back to you? 
+4. Do you find you miss events due to messages getting lost? 
+5. What type of posts do the societies make on social media? 
+6. What is your favourite social media app that you use for societies and why? 
+7. How many social media apps do you use, and of these which do you use the most and why? 
+8. How many societies where you interested in, and how many have you actually gone to? 
+- Why did you miss their events? 
+9. What's your best way to interact with a society's event? 
+10. Do you prefer seeing the details first, chatting to someone before deciding or being able to reserve a spot through an app? 
+11. If you were to share an event with friends, what would be the easiest way for you to do that? 
+12. If you’re deciding whether to attend an event, does viewing a guest list help? 
 
-    "How many socs are you a part of?" This was to see how many Societies the application would need to handle for the average users
-    "How many different apps do you have for society news?" This was to see how many competitors we would have in the market
-    "would you be interested in something to put all of these in one place?" Too see if there was a market for consolidating society news
-    "When you are missing information, how do you get in touch with your societies?" Too see what features would be needed for getting in contact with committee members
-    "How long does it take for them to get back to you?" Too see what the average response time would need to be
-    "Do you find you miss events due to messages getting lost?" Too see how we would need to structure the app in terms of notifications
-    "What type of posts do the societies make on social media?" Too see what type of media would the app need to support
-    "What is your favourite social media app that you use for societies and why?" This was to see what to competition was and why users used them
-    "How many social media apps do you use, and of these which do you use the most and why?" Too see what we would need to do in order to keep users on the app
-    "How many societies were you interested in, and how many have you actually gone to? + why did you miss their events?"
-    "What's your best way to interact with a society's event?" To see how users interact with posts
-    "Do you prefer seeing the details first, chatting to someone before deciding or being able to reserve a spot through an app?" Too see how what makes users go to events 
-    "If you were to share an event with friends, what would be the easiest way for you to do that?" In order too see how users spread information about events
-    "If you’re deciding whether to attend an event, does viewing a guest list help?" Too see if we need to track user attendance
+1. How do distribute news to your members? 
+- Why do you use this method 
+2. How would you say members engage with your announcements? 
+3. What is the biggest hurdle to engage with your society? 
+4. What forms of media (E.g. text, images, video, polls) do you distribute and why?  
+5. Have you set up a shared calendar? If not, do you believe this could be useful? 
+6. Do you send out communication over more than one channel already? 
+7. Do you manage your society on multiple social media accounts, if so, how difficult is this 
+8. When managing queries related to the society, how long do you typically take to reply 
+9. When posting about events, what information do you typically include? 
+10. What is your typical event turnout, and how do you think it might be improved? 
 
+### Reflections on Methodology 
 
+Largely we believe our methodology to have been successful, through the nature of our semi structured interview format, we avoided many of the pitfalls of structured and unstructured interviews. The use of an opportunity sample may have been problematic, as it would have given rise to investigator effects and so our data may not be as representative as we hope, potentially lacking external validity. 
+ 
+On the other hand, our research may also lack internal validity, with our 3rd question perhaps being too leading – giving way to demand characteristics; a majority of our participants replied positively. 
+ 
+Whilst most of the individual questions were suitable for prompting participants, question 11 proved to be less useful, as finding out the details was a must for all participants – and so we would change this if we did this again. 
+ 
+Our 9th question was also too vague, requiring us to add clarification which should have been there to begin with. 
 
-The interviews were then transcribed and analysed for patterns. The average answer was taken to identify patterns. some unique answers were also highlighted
+### Reflections on Results 
 
-Everyone was in favour of the app With some concerns about notifications being overwhelming. WhatsApp and Instagram was the most commonly used apps for society news, with people being apart of 2 society's on average (4.7 for mean, 2 for median, 2 for mode), the average response time of committee members was the same day (5/6 days mean, 0 days median 0 days mode) if the responses of some variant of the word quickly is counted as in a day. TikTok and Instagram was the most well liked social media apps used, this tells of a preference for scrolling like apps and not chat based or page based ones (WhatsApp, Snapchat, Facebook, Twitter \[X] for example) liking posts seems to be the preferred way of people to interact with the post societies make. The posts in question also are mainly test and image based with no audio or video posts being made, posters where also commonly mentioned by the interviewees but this can be combined with images for general media type. people liked to talk to people directly in order to inform them about events, seconded to this was sharing the post in the apps. A guest list was not important for people when deciding weather to go an event. People didn't attended events only because of scheduling problems and very rarely because of missing posts.
+As mentioned above, most participants were positive about the potential application. 
+ 
+The insights regarding the numbers of societies people were a part of (average x), and how many they intended to join from the start of the year (average y) indicated the troubles societies have with member retention – with this being partially demonstrated by interviews with committee members. 
+ 
+There were however some concerns about notifications being overwhelming. This is consistent with the notification heavy nature of WhatsApp and Instagram – which were noted as being the apps people use most for societies.  
+ 
+The information we received about people’s favourite apps (TikTok and Instagram) ultimately reinforced our understanding of the prevalence of doomscrollinginsert reference, which we will be taking on board as we progress to the design of our user interface. Equally, the generally speedy response time for members contacting societies will need to be something we enable with our UI.  
+ 
+The most common way people interact with posts is likes (or affirming reactions), across Instagram Posts, Stories and WhatsApp messages – with the posts mainly being text/image based. 
+ 
+Calendar posters also seem to be a common way societies outreach to members – supporting our core calendar feature. These also require images to be posted – which alongside text were the most common post type. Polls and videos were also common, and so a seamless integration for these will be important. 
+ 
 
-Unfortunately not many people interviewed were members of a committee so the data gathered was very sparse, the questions asked to committee members in addition to the original questions was:
-
-
-    "How do distribute news to your members?" primer for the next question
-    "Why do you use this method?" in order to see why a society will use a certain method over others
-    "How would you say members engage with your announcements?" see how societies measure engagement of posts
-    "What is the biggest hurdle to engage with your society?" to get any problems with engagement societies might be facing
-    "What forms of media do you distribute and why?" EG, text , images, video, polls. To see why certain media is used for posts
-    "Have you set up a shared calendar?" If not would you believe a shared synced calendar would be useful? to see if a shared calendar is wanted
-    "Do you send out communication over more than one channel already?" see how news is organised by societies
-    "Do you manage your society on multiple social media accounts, if so how difficult is it to do so?" to see if there is any problems with multiple channels of distribution
-    "When managing queries related to the society, how long do you typically take to reply?" to see if there are any problems with the current method being used
-    "When posting about events, what information do you typically include?" see what and why information is posted
-    "What is your typical event turnout, and how do you think it might be improved?" to see what features societies might want for improving event engagement
-
-Due to the share lack of data, proper analysis would be made difficult and would just be repeating what was said in the interviews 
-
+Few expressed support for a guest list, and so we’ll ensure our UI does not prioritise this feature. 
