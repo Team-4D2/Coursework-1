@@ -3,20 +3,19 @@
 ## Deliverables
 
 - [x] Collect Research
-- [ ] Report on Research Methods (in progress)
+- [x] Report on Research Methods
 - [x] Use Research to develop User Requirements
-- [ ] Use User Requirements to develop System Requirement (in progress)
+- [x] Use User Requirements to develop System Requirement (touching up)
 
-- [ ] Use System Requirements to develop Architecture Model
-- [ ] Identify, explain and model 5+ Use Cases
+- [x] Use System Requirements to develop Architecture Model
+- [ ] Identify, explain and model 5+ Use Cases (needs some description)
 
 - [X] Set up the Github
-- [ ] Report on which framework/langauages to use (in progress)
+- [ ] Report on which framework/langauages to use (needs reference to git)
 
-- [ ] Identify Test Scenarios for System
-- [ ] (something on automated testing?)
+- [ ] Testing Outline (in progress)
 
-- [ ] Final Critical Analysis of Project in TB1 (in progres)
+- [ ] Final Critical Analysis of Project in TB1 (in progress)
 
 ---
 
