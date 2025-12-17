@@ -19,3 +19,5 @@ Registered Committee
     Create Post: Publishes announcements or updates for members to view.
 
     Create Event: Schedules and publishes new society activities.
+
+This Use Case diagram outlines the functional requirements for a society management system involving two distinct actors. Registered Members engage with the platform by joining societies, liking posts, and syncing upcoming events to their personal calendars. The Registered Committee holds administrative privileges, focusing on content generation by creating posts and scheduling new events for the society.
