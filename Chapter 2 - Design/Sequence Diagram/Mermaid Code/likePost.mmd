@@ -7,14 +7,13 @@ sequenceDiagram
 
     Member->>LP: clickLike(postID)
     activate LP
-    LP->>LP: calculateNewCount(currentLikes)
 
-    LP->>MP: updateLikeCount(postID, newCount)
+    LP->>MP: updateLikeCount(postID, CurrentCount)
     activate MP
 
-    MP->>DBConn: savePostUpdate(postID, newCount)
+    MP->>DBConn: savePostUpdate(postID, CurrentCount)
     activate DBConn
-    DBConn->>DB: execute("UPDATE posts SET likes = likes + 1...")
+    DBConn->>DB: execute("UPDATE posts SET likes = CurrentCount + 1)
     activate DB
     DB-->>DBConn: return success
     deactivate DB
