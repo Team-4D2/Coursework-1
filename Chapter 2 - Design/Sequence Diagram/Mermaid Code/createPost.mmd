@@ -5,7 +5,6 @@ sequenceDiagram
     participant DBConn as Database Connector
     participant DB as Database
 
-
     Comm->>PM: createPost(content, eventID)
     activate PM
     PM->>PM: validateContent(content)
@@ -13,21 +12,39 @@ sequenceDiagram
     alt eventID is provided
         PM->>EM: linkPostToEvent(postID, eventID)
         activate EM
-        EM->>EM: checkEventExists(eventID)
+        
+        EM->>DBConn: checkEventExists(eventID)
+        activate DBConn
+        DBConn->>DB: execute("SELECT count(*) FROM events...")
+        activate DB
+        DB-->>DBConn: return count
+        deactivate DB
+        DBConn-->>EM: return exists (boolean)
+        deactivate DBConn
+        
         EM-->>PM: return linkSuccess
         deactivate EM
+        PM->>DBConn: savePost(postObject)
+        activate DBConn
+        DBConn->>DB: execute("INSERT INTO posts...")
+        activate DB
+        DB-->>DBConn: return result
+        deactivate DB
+        DBConn-->>PM: return postID
+        deactivate DBConn
     else eventID is null
         PM->>PM: skip event linking
+        PM->>DBConn: savePost(postObject)
+        activate DBConn
+        DBConn->>DB: execute("INSERT INTO posts...")
+        activate DB
+        DB-->>DBConn: return result
+        deactivate DB
+        DBConn-->>PM: return postID
+        deactivate DBConn
     end
 
-    PM->>DBConn: savePost(postObject)
-    activate DBConn
-    DBConn->>DB: execute("INSERT INTO posts...")
-    activate DB
-    DB-->>DBConn: return result
-    deactivate DB
-    DBConn-->>PM: return postID
-    deactivate DBConn
+    
 
     PM-->>Comm: renderPostView(postData)
     deactivate PM
