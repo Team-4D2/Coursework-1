@@ -8,12 +8,12 @@
 - [x] Use User Requirements to develop System Requirement (touching up)
 
 - [x] Use System Requirements to develop Architecture Model
-- [ ] Identify, explain and model 5+ Use Cases (needs some description)
+- [x] Identify, explain and model 5+ Use Cases
 
 - [X] Set up the Github
-- [ ] Report on which framework/langauages to use (needs reference to git)
+- [x] Report on which framework/langauages to use
 
-- [ ] Testing Outline (in progress)
+- [x] Testing Outline
 
 - [ ] Final Critical Analysis of Project in TB1 (in progress)
 
