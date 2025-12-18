@@ -35,13 +35,13 @@ Member Content Engagement
 
 A user clicks the like button on a post. The system calculates the new total and saves the update in the database. The screen immediately refreshes to display the new number of likes.
 
-Society Discovery and Enrollment
+Society Discovery and Enrolment
 
 The system presents a list of active societies from the database. When a user selects a group to join, the system creates a formal link between the user and that society. This action instantly grants them member access.
 
 Committee Content Publishing
 
-Committee members use this tool to write announcements. If the author links an event to the post, the system checks that the event actually exists. Once the check passes, the post is saved to the database.
+Committee members use this tool to write posts. If the author links an event to the post, the system checks that the event actually exists. Once the check passes, the post is saved to the database.
 
 Committee Event Management
 
