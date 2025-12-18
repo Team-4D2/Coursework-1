@@ -1,1 +1,16 @@
-WhatsApp is primarily chat focused, excelling at communication with society members, but falls short with society messaging, missing features like polls, the standard infinite scrolling window for all messages also makes it hard to search older posts from certain people or the society itself. WhatsApp also supports sending media along with messages like images and video. users of WhatsApp can also reply to messages with emojis, allowing for a simple form of likes in a crude way, the overwhelming amount of options available however, can cause some confusion as to what the emoji means. The lack of chat management can cause some problems in finding society chats vs chats with other people, adding unnecessary friction for users.
+WhatsApp
+
+WhatsApp is primarily chat focused, excelling at communication with society members as well as taking polls. However, it falls short with society messaging. The missing standard infinite scrolling window for all messages also makes it hard to search older posts from certain people or the society itself.
+WhatsApp supports sending media along with messages like images and video. Users of WhatsApp can also reply to messages with emojis, allowing for a simple form of likes in a crude way. The overwhelming amount of options available, however, can cause some confusion as to what the emoji means.
+The lack of chat management can cause some problems in finding society chats versus chats with other people, adding unnecessary friction for users.
+
+Instagram
+
+Instagram is an image-sharing platform that excels at sharing posters for upcoming events and photos from previous events. However, it falls short when sharing any information that does not fit into a poster and also lacks usable group messaging apps.
+This makes it hard to keep track of your members on a night out or get responses quickly. There are features like polls to help organize an event and stories to provide live updates, also in the form of images.
+Instagram does make it easy to find societies by showing related accounts to the university.
+
+Discord
+
+Discord is a community-focused platform that excels at organizing social communication through dedicated servers and channels. Text channels allow messages to be grouped by topic, making it easier to separate announcements, general discussion, and event planning. Discord supports sending media such as images, videos, and files alongside messages. The large number of features and customization options can be overwhelming for new users. Voice channels allow members to join and leave calls freely, which can be useful for meetings or social events.  Discord is cluttered and produces a large number of notifications, making it easy for important information to get lost. 
+
